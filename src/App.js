@@ -23,7 +23,7 @@ function App() {
               <div className="card">
                 <p>Pizza neve: {pizza.name}</p>
                 <b>Glutén mentes-e: {pizza.isGlutenFree ? "Igen" : "Nem"}</b>
-                <img height="150px" src={pizza.kepURL}></img>
+                <img height="150px" src={pizza.kepURL} alt={pizza.id}></img>
               </div>
             ))}
           </div>
